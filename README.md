@@ -10,3 +10,4 @@
 8. [K번째수<knum>](https://cdn.discordapp.com/attachments/868303738010488932/868303853047644170/K.PNG)
 9. (진행중)키패드 누르기<keyPad> - KAKAO
 10. (진행중)소수 만들기<primeNumber>
+11. [로또의 최고 순위와 최저 순위<lottoMaxOrMin>](https://cdn.discordapp.com/attachments/868303738010488932/868460372674371594/af3fea0316a3f405.PNG)
