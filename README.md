@@ -15,4 +15,5 @@
 13. [약수의 개수와 덧셈<divisorCountAndPlus>](https://cdn.discordapp.com/attachments/868303738010488932/868654281702658048/f2392b612cd195d8.PNG)
  / [약수의 개수와 덧셈, HashSet사용 X<divisorCountAndPlus>](https://cdn.discordapp.com/attachments/868303738010488932/868656457564946482/x.PNG)
 14. [모의고사<mockTest>](https://cdn.discordapp.com/attachments/868303738010488932/868675585617051668/444d61c5ac20540a.PNG)
-15. [예산<budget>]()
+15. [예산<budget>](https://cdn.discordapp.com/attachments/868303738010488932/868679020882055198/608e1bc41c907aea.PNG)
+16. 
