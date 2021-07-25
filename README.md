@@ -12,3 +12,4 @@
 10. (진행중)소수 만들기<primeNumber>
 11. [로또의 최고 순위와 최저 순위<lottoMaxOrMin>](https://cdn.discordapp.com/attachments/868303738010488932/868460372674371594/af3fea0316a3f405.PNG)
 12. [숫자 문자열과 영단어<intStringAndAlphabet>](https://cdn.discordapp.com/attachments/868303738010488932/868491814263480350/105c93a7db3b4190.PNG)
+13. [약수의 개수와 덧셈<divisorCountAndPlus>](https://cdn.discordapp.com/attachments/868303738010488932/868654281702658048/f2392b612cd195d8.PNG)
