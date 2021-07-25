@@ -16,4 +16,5 @@
  / [약수의 개수와 덧셈, HashSet사용 X<divisorCountAndPlus>](https://cdn.discordapp.com/attachments/868303738010488932/868656457564946482/x.PNG)
 14. [모의고사<mockTest>](https://cdn.discordapp.com/attachments/868303738010488932/868675585617051668/444d61c5ac20540a.PNG)
 15. [예산<budget>](https://cdn.discordapp.com/attachments/868303738010488932/868679020882055198/608e1bc41c907aea.PNG)
-16. 
+16. [3진법 뒤집기<ternaryReverse>](https://cdn.discordapp.com/attachments/868303738010488932/868728650491641926/3_.PNG)
+17. [실패율<failureLate>]()
