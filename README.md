@@ -8,8 +8,8 @@
 6. [체육복<GymClothes>](https://cdn.discordapp.com/attachments/868303738010488932/868305002031091782/c41cff05e2d7a5f6.PNG)
 7. [완주하지 못한 선수<marathon>](https://cdn.discordapp.com/attachments/868303738010488932/868304884406030386/b8b56c0d8d7b96f4.PNG)
 8. [K번째수<knum>](https://cdn.discordapp.com/attachments/868303738010488932/868303853047644170/K.PNG)
-9. (진행중)키패드 누르기<keyPad> - KAKAO
-10. (진행중)소수 만들기<primeNumber>
+9. [(진행중)키패드 누르기<keyPad>]
+10. [(진행중)소수 만들기<primeNumber>]
 11. [로또의 최고 순위와 최저 순위<lottoMaxOrMin>](https://cdn.discordapp.com/attachments/868303738010488932/868460372674371594/af3fea0316a3f405.PNG)
 12. [숫자 문자열과 영단어<intStringAndAlphabet>](https://cdn.discordapp.com/attachments/868303738010488932/868491814263480350/105c93a7db3b4190.PNG)
 13. [약수의 개수와 덧셈<divisorCountAndPlus>](https://cdn.discordapp.com/attachments/868303738010488932/868654281702658048/f2392b612cd195d8.PNG)
@@ -17,4 +17,5 @@
 14. [모의고사<mockTest>](https://cdn.discordapp.com/attachments/868303738010488932/868675585617051668/444d61c5ac20540a.PNG)
 15. [예산<budget>](https://cdn.discordapp.com/attachments/868303738010488932/868679020882055198/608e1bc41c907aea.PNG)
 16. [3진법 뒤집기<ternaryReverse>](https://cdn.discordapp.com/attachments/868303738010488932/868728650491641926/3_.PNG)
-17. [실패율<failureLate>]()
+17. [실패율<failureLate>]
+18. [문자열 내 p와 y의 개수<stringPY>(https://cdn.discordapp.com/attachments/868303738010488932/868766313252810752/p_y_.PNG)
