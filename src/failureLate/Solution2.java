@@ -31,33 +31,45 @@ public class Solution2 {
                 }   // 배열의 원소와 동일하면 플레이한 플레이어 증가
             }
             if ( countPlayer == 0) {
-                failureArray[i][0] = -1;    // 플레이어가 아무도 도달하지 못했을경우
-            } else {
+                failureArray[i][0] = -1.0;    // 플레이어가 아무도 도달하지 못했을경우
+            }
+            else {
                 failureArray[i][0] = (countFailPlayer / countPlayer);
             }
             failureArray[i][1] = (i+1);
         }
+
         // failureArray 정렬
         Arrays.sort(failureArray, new Comparator<double[]>() {
             @Override
             public int compare(double[] o1, double[] o2) {
-                return (int) (o2[0] - o1[0]);
+                return (int) (o1[0] - o2[0]);
             }
         });
         for ( int i = 0; failureArray.length > i; i++) {
             answer[i] = (int) failureArray[i][1];
+        }
+        for ( int i = 0; failureArray.length > i; i++ ) {
+            for ( int j = 0; 2 > j; j++){
+                System.out.print(failureArray[i][j]);
+                if ( j == 0 ) {
+                    System.out.print( " ");
+                } else {
+                    System.out.println(" ");
+                }
+            }
         }
         System.out.println(Arrays.toString(answer));
         return answer;
     }   // 3,5,9-13,15-22,24
 
     public static void main(String[] args) {
-        Solution st = new Solution();
+        Solution2 st = new Solution2();
         int[] s1 = new int[] {2, 1, 2, 6, 2, 4, 3, 3};
-        //st.solution(5,s1);
+        st.solution(5,s1);  // 3,4,2,1,5
         int[] s2 = new int[] {4,4,4,4,4};
         //st.solution(4,s2);
         int[] s3 = new int[] {2,1,2,4,2,4,3,3};
-        st.solution(5,s3);
+        //st.solution(5,s3);
     }
 }
