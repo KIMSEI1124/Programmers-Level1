@@ -22,4 +22,5 @@
 19. [두 개 뽑아서 더하기<intPlus>](https://cdn.discordapp.com/attachments/868303738010488932/869378671130075176/ac5b0a598873733a.PNG)
 20. [2016년<year2016>](https://cdn.discordapp.com/attachments/868303738010488932/869405582031994971/2016.PNG)
 21. [가운데 글자 가져오기<middleStringGet>](https://cdn.discordapp.com/attachments/868303738010488932/869410870768316487/5451548a4c0b7bd7.PNG)
-22. 
+22. [비밀지도<secretMap>](https://cdn.discordapp.com/attachments/868303738010488932/869459828295233546/b25d9eeff15f2e78.PNG)
+23. [다트 게임<dartsGame>]()
