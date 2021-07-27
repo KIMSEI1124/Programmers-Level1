@@ -24,3 +24,4 @@
 21. [가운데 글자 가져오기<middleStringGet>](https://cdn.discordapp.com/attachments/868303738010488932/869410870768316487/5451548a4c0b7bd7.PNG)
 22. [비밀지도<secretMap>](https://cdn.discordapp.com/attachments/868303738010488932/869459828295233546/b25d9eeff15f2e78.PNG)
 23. [다트 게임<dartsGame>]()
+24. [문자열을 정수로 바꾸기<pasreInt>](https://cdn.discordapp.com/attachments/868303738010488932/869465136421822494/6e8c3704b4e2d3b4.PNG)
