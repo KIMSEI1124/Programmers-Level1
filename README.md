@@ -19,3 +19,4 @@
 16. [3진법 뒤집기<ternaryReverse>](https://cdn.discordapp.com/attachments/868303738010488932/868728650491641926/3_.PNG)
 17. [실패율<failureLate>]
 18. [문자열 내 p와 y의 개수<stringPY>(https://cdn.discordapp.com/attachments/868303738010488932/868766313252810752/p_y_.PNG)
+19. [두 개 뽑아서 더하기<intPlus>](https://cdn.discordapp.com/attachments/868303738010488932/869378671130075176/ac5b0a598873733a.PNG)
