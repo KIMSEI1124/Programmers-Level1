@@ -34,4 +34,5 @@
  / [문자열 내림차순으로 배치하기, for문 사용 X](https://cdn.discordapp.com/attachments/868303738010488932/869769180042375188/for_x_.PNG)
 30. [문자열 다루기 기본<stringHandling>](https://cdn.discordapp.com/attachments/868303738010488932/869773883320987678/98cd68ca9d0a2539.PNG)
 31. [서울에서 김서방 찾기<lookingKim>](https://cdn.discordapp.com/attachments/868303738010488932/869777682689314827/d5ed642e18ae6e38.PNG)
-32. [<>]()
+32. [소수 찾기<primeNumFinder>](https://cdn.discordapp.com/attachments/868303738010488932/869845009636147271/d91b3890d5cc1bc2.PNG)
+33. [<>]()

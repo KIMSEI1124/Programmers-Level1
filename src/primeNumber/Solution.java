@@ -17,9 +17,7 @@ public class Solution {
         ArrayList<Integer> primeList = new ArrayList<>();
 
         threeNumPlus(nums, numHash);
-
-        ArrayList<Integer> numList = new ArrayList<Integer>(numHash);  // numList배열안에 있는 값들의 모음 중복X
-        Collections.sort(numList);  // ArrayList를 정렬
+        System.out.println();
 
         return answer;
     }
@@ -38,9 +36,6 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution st = new Solution();
-        for ( int i = 2; i >=1000; i++) {
-            int[] nums2 = new int[] {i};
-        }
         int[] nums1 = new int[] {1,2,7,6,4};
         st.solution(nums1);
     }
