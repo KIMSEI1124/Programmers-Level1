@@ -18,7 +18,7 @@
 15. [예산<budget>](https://cdn.discordapp.com/attachments/868303738010488932/868679020882055198/608e1bc41c907aea.PNG)
 16. [3진법 뒤집기<ternaryReverse>](https://cdn.discordapp.com/attachments/868303738010488932/868728650491641926/3_.PNG)
 17. [실패율<failureLate>]
-18. [문자열 내 p와 y의 개수<stringPY>(https://cdn.discordapp.com/attachments/868303738010488932/868766313252810752/p_y_.PNG)
+18. [문자열 내 p와 y의 개수<stringPY>](https://cdn.discordapp.com/attachments/868303738010488932/868766313252810752/p_y_.PNG)
 19. [두 개 뽑아서 더하기<intPlus>](https://cdn.discordapp.com/attachments/868303738010488932/869378671130075176/ac5b0a598873733a.PNG)
 20. [2016년<year2016>](https://cdn.discordapp.com/attachments/868303738010488932/869405582031994971/2016.PNG)
 21. [가운데 글자 가져오기<middleStringGet>](https://cdn.discordapp.com/attachments/868303738010488932/869410870768316487/5451548a4c0b7bd7.PNG)
