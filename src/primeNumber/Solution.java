@@ -17,8 +17,6 @@ public class Solution {
         ArrayList<Integer> primeList = new ArrayList<>();
 
         threeNumPlus(nums, numHash);
-        System.out.println();
-
         return answer;
     }
 
