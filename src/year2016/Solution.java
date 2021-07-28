@@ -38,7 +38,7 @@ public class Solution {
             default:
                 answer = "WED";
         }
-        //System.out.println(answer);
+        System.out.println(answer);
         return answer;
     }
 
