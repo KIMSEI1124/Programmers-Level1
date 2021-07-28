@@ -32,4 +32,6 @@
 28. [(진행중)문자열 내 마음대로 구현하기<wishString>]()
 29. [문자열 내림차순으로 배치하기<stringDesrot>](https://cdn.discordapp.com/attachments/868303738010488932/869769154230644787/for_O_.PNG)
  / [문자열 내림차순으로 배치하기, for문 사용 X](https://cdn.discordapp.com/attachments/868303738010488932/869769180042375188/for_x_.PNG)
-30. [<>]() 
+30. [문자열 다루기 기본<stringHandling>](https://cdn.discordapp.com/attachments/868303738010488932/869773883320987678/98cd68ca9d0a2539.PNG)
+31. [서울에서 김서방 찾기<lookingKim>](https://cdn.discordapp.com/attachments/868303738010488932/869777682689314827/d5ed642e18ae6e38.PNG)
+32. [<>]()
