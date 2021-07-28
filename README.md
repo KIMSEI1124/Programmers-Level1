@@ -29,4 +29,7 @@
 25. [같은 숫자는 싫어<dontSameNum>](https://cdn.discordapp.com/attachments/868303738010488932/869747098327875634/b8b2a88f9569379c.PNG)
 26. [나누어 떨어지는 숫자 배열<dividingNumArr>](https://cdn.discordapp.com/attachments/868303738010488932/869749278455767140/48623ec9e22f6be4.PNG)
 27. [두 정수 사이의 합<betweenIntPlus>](https://cdn.discordapp.com/attachments/868303738010488932/869751597759090688/c17da3d9109c3958.PNG)
-28. [<>]()
+28. [(진행중)문자열 내 마음대로 구현하기<wishString>]()
+29. [문자열 내림차순으로 배치하기<stringDesrot>](https://cdn.discordapp.com/attachments/868303738010488932/869769154230644787/for_O_.PNG)
+ / [문자열 내림차순으로 배치하기, for문 사용 X](https://cdn.discordapp.com/attachments/868303738010488932/869769180042375188/for_x_.PNG)
+30. [<>]() 
