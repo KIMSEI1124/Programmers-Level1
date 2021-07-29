@@ -37,3 +37,4 @@
 32. [소수 찾기 - primeNumFinder](https://cdn.discordapp.com/attachments/868303738010488932/869845009636147271/d91b3890d5cc1bc2.PNG)
 33. [수박수박수박수박수박수? - waterMelon](https://cdn.discordapp.com/attachments/868303738010488932/869849422866034708/a629b06910087b51.PNG)
 34. [시저 암호 - caesarPassword](https://cdn.discordapp.com/attachments/868303738010488932/869943138133868574/4f0851a36098d07c.PNG)
+35. [약수의 합 - divisorSum](https://cdn.discordapp.com/attachments/868303738010488932/870231299791654932/5737179d621d5538.PNG0)
