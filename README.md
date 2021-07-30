@@ -40,3 +40,4 @@
 35. [약수의 합 - divisorSum](https://cdn.discordapp.com/attachments/868303738010488932/870231299791654932/5737179d621d5538.PNG0)
 36. [이상한 문자 만들기 - createStrangeStr](https://cdn.discordapp.com/attachments/868303738010488932/870469782162534470/566224c307480ee8.PNG)
 37. [자릿수 더하기 - sumDigits](https://cdn.discordapp.com/attachments/868303738010488932/870474737652998174/ad7d21ccdbdb31c0.PNG)
+38. [자연수 뒤집어 배열로 나누기 - intReverseArr](https://cdn.discordapp.com/attachments/868303738010488932/870479245787410463/b2b32921616be000.PNG)
