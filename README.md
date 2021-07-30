@@ -43,3 +43,5 @@
 38. [자연수 뒤집어 배열로 나누기 - intReverseArr](https://cdn.discordapp.com/attachments/868303738010488932/870479245787410463/b2b32921616be000.PNG)
 39. [정수 내림차순으로 배치하기 - intSort](https://cdn.discordapp.com/attachments/868303738010488932/870484116250980402/bb81067be4b55e57.PNG)
 40. [정수 제곱근 판별 - isPow](https://cdn.discordapp.com/attachments/868303738010488932/870494034513264680/fcd22d98ebe501a7.PNG)
+41. [제일 작은 수 제거하기 - minIntDelete](https://cdn.discordapp.com/attachments/868303738010488932/870564707197677578/ce266d82dac5f694.PNG)
+42. [짝수와 홀수 - oddAndEven]()
