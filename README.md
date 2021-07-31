@@ -47,3 +47,4 @@
 42. [짝수와 홀수 - oddAndEven](https://cdn.discordapp.com/attachments/868303738010488932/870566379768655882/189c3ac8b102688b.PNG)
 43. [최대 약수와 최소공배수 - gcdAndlcm](https://cdn.discordapp.com/attachments/868303738010488932/870926067244871720/9f9d5eb32227341f.PNG)
 44. [콜라츠 추측 - collatz guess](https://cdn.discordapp.com/attachments/868303738010488932/870930878803619850/68820349f5b1eb90.PNG)
+45. [평균 구하기 - average](https://cdn.discordapp.com/attachments/868303738010488932/870932756081827870/111dd23a11cad3db.PNG)
