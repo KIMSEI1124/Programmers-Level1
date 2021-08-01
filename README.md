@@ -49,3 +49,4 @@
 44. [콜라츠 추측 - collatz guess](https://cdn.discordapp.com/attachments/868303738010488932/870930878803619850/68820349f5b1eb90.PNG)
 45. [평균 구하기 - average](https://cdn.discordapp.com/attachments/868303738010488932/870932756081827870/111dd23a11cad3db.PNG)
 46. [하샤드 수 - hashadNum](https://cdn.discordapp.com/attachments/868303738010488932/870935729830772736/61988757c9ce39b7.PNG)
+47. [핸드폰 번호 가리기 - CoverPhoneNum](https://cdn.discordapp.com/attachments/868303738010488932/871257092680478780/fe659aaa0f7938c0.PNG)
