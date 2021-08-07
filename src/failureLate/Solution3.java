@@ -1,7 +1,5 @@
 package failureLate;
 
-import java.util.*;
-
 /**
  * 제한사항
  * 스테이지의 개수 N은 1 이상 500 이하의 자연수이다.
@@ -16,60 +14,67 @@ import java.util.*;
  */
 
 public class Solution3 {
+    static int countPlayer;
+    static int failPlayer;
+
     /**
-     *
-     * @param N 스테이지 레벨
+     * @param N      스테이지 레벨
      * @param stages 사용자가 도전중인 스테이지
-     * @return  실패율
+     * @return 실패율
      */
-    public ArrayList<Integer> solution(int N, int[] stages) {
-        ArrayList<Double> failureList = new ArrayList<>();
-        ArrayList<Integer> answer = new ArrayList<>();
-        for ( int i = 1; N >= i; i++) {
-            int playerCount = 0;
-            int failCount = 0;
-            double failure;
-            for (int stage : stages) {
-                if (stage >= i) {
-                    playerCount += 1;
-                }
-                if (stage == i) {
-                    failCount += 1;
-                }
-            }
-            if ( playerCount != 0) {
-                failure = (double) failCount / playerCount;
-                for ( int j = failureList.size()-1; j >= 0; j--) {
-                    if (failureList.size() == 0) {
-                        failureList.add(failureList.size(), failure);
-                        break;
-                    } else {
-                        if (failureList.get(j) == 0) ;
-                        else if (failureList.get(j) < failure) ;
-                        else if (failureList.get(j) >= failure) {
-                            failureList.add(j + 1, failure);
-                            break;
-                        }
-                    }
-                }
-            }
-            else {
-                failureList.add(failureList.size(), 0.0);
-                answer.add(answer.size(), i);
-            }   // 스테이지에 아무도 도달하지 못했을 경우
-            System.out.println(failureList);
-            System.out.println(answer);
+    public int[] solution(int N, int[] stages) {
+        int[] answer = {};
+        int[] failureLate = new int[N];
+
+        for (int stageLevel = 0; N >= stageLevel; stageLevel++) {
+            // TODO 실패율 구하기
+            failureLate[stageLevel] =
+            // TODO 스테이지에 도달한 플레이어수 구하기
+                    getFailPlayer(stageLevel, stages)
+            // TODO 스테이지를 실패한 플레이어수 구하기
+                            / getCountPlayer(stageLevel, stages);
+            System.out.println(getFailPlayer(stageLevel, stages));
         }
         return answer;
     }
 
+    /**
+     * @param stageLevel 현재 스테이지 레벨
+     * @param stages     플레이어가 도전중인 스테이지
+     * @return 스테이지에 도달한 플레이어의 수
+     */
+    public int getCountPlayer(int stageLevel, int[] stages) {
+        countPlayer = 0;
+        for (int player = 0; stages.length > player; player++) {
+            if (stages[player] >= stageLevel) {
+                countPlayer++;
+            }
+        }
+        return countPlayer;
+    }
+
+    /**
+     * @param stageLevel 현재 스테이지 레벨
+     * @param stages     플레이어가 도전중인 스테이지
+     * @return 스테이지 클리어에 실패한 플레이어의 수
+     */
+    public int getFailPlayer(int stageLevel, int[] stages) {
+        failPlayer = 0;
+        for (int player = 0; stages.length > player; player++) {
+            if (stages[player] == stageLevel) {
+                failPlayer++;
+            }
+        }
+        return failPlayer;
+    }
+
     public static void main(String[] args) {
         Solution3 st = new Solution3();
-        int[] s1 = new int[] {2, 1, 2, 6, 2, 4, 3, 3};
+        int[] s1 = new int[]{2, 1, 2, 6, 2, 4, 3, 3};
         //st.solution(5,s1);
-        int[] s2 = new int[] {4,4,4,4,4};
+        int[] s2 = new int[]{4, 4, 4, 4, 4};
         //st.solution(4,s2);
-        int[] s3 = new int[] {2,1,2,4,2,4,3,3};
-        st.solution(5,s3);
+        int[] s3 = new int[]{2, 1, 2, 4, 2, 4, 3, 3};
+        st.solution(5, s3);
     }
 }
