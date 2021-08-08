@@ -16,21 +16,20 @@ public class Solution {
     /**
      * 문자열을 index 위치한 문자를 정렬하여 문자열을 정렬한다.
      * @param strings 문자열
-     * @param n index 번호
+     * @param n 정렬해야할 기준의 위치
      * @return 정렬한 문자열
      */
     public String[] solution(String[] strings, int n) {
         String[] answer = new String[strings.length];
-        String[] arr = new String[strings.length];
-        Arrays.sort(strings);
+        String[] sortArr = new String[strings.length];
         for ( int i = 0; strings.length > i; i++) {
-            arr[i] = strings[i].substring(n) + i;
+            String str = strings[i].substring(n,strings[i].length());
+            sortArr[i] = str+","+i;
         }
-        Arrays.sort(arr);   // 정렬
-        for ( int i = 0; strings.length > i; i++ ) {
-            answer[i] = strings[Integer.parseInt(arr[i].substring(arr[i].length()-1))]; // 문자열 뒤에 있는 숫자만 남기고 자른다.
-        }   // subString ENG
-        System.out.println(Arrays.toString(answer));
+        Arrays.sort(sortArr);
+        for ( int i = 0; sortArr.length > i; i++) {
+            answer[i] = strings[Integer.parseInt(sortArr[i].split(",")[1])];
+        }
         return answer;
     }
     public static void main(String[] args) {

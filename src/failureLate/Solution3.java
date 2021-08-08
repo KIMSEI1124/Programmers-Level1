@@ -1,5 +1,8 @@
 package failureLate;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 /**
  * 제한사항
  * 스테이지의 개수 N은 1 이상 500 이하의 자연수이다.
@@ -14,58 +17,30 @@ package failureLate;
  */
 
 public class Solution3 {
-    static int countPlayer;
-    static int failPlayer;
-
     /**
      * @param N      스테이지 레벨
      * @param stages 사용자가 도전중인 스테이지
      * @return 실패율
      */
-    public int[] solution(int N, int[] stages) {
-        int[] answer = {};
-        int[] failureLate = new int[N];
-
+    public ArrayList<Integer> solution(int N, int[] stages) {
+        ArrayList<Integer> answer = new ArrayList<>();
+        int countPlayer = 0;
+        int failPlayer = 0;
+        int[] failureLateArr = new int[N];
         for (int stageLevel = 0; N >= stageLevel; stageLevel++) {
-            // TODO 실패율 구하기
-            failureLate[stageLevel] =
-            // TODO 스테이지에 도달한 플레이어수 구하기
-                    getFailPlayer(stageLevel, stages)
-            // TODO 스테이지를 실패한 플레이어수 구하기
-                            / getCountPlayer(stageLevel, stages);
-            System.out.println(getFailPlayer(stageLevel, stages));
+            for ( int player = 0; stages.length > player; player++) {
+                if ( stageLevel >= stages[player]) {
+                    countPlayer++;
+                }
+                if ( stageLevel == stages[player]) {
+                    failPlayer++;
+                }
+            }
+            int failureLate = (int) failPlayer / countPlayer;
+            failureLateArr[stageLevel] = failureLate;
         }
+        System.out.println(Arrays.toString(failureLateArr));
         return answer;
-    }
-
-    /**
-     * @param stageLevel 현재 스테이지 레벨
-     * @param stages     플레이어가 도전중인 스테이지
-     * @return 스테이지에 도달한 플레이어의 수
-     */
-    public int getCountPlayer(int stageLevel, int[] stages) {
-        countPlayer = 0;
-        for (int player = 0; stages.length > player; player++) {
-            if (stages[player] >= stageLevel) {
-                countPlayer++;
-            }
-        }
-        return countPlayer;
-    }
-
-    /**
-     * @param stageLevel 현재 스테이지 레벨
-     * @param stages     플레이어가 도전중인 스테이지
-     * @return 스테이지 클리어에 실패한 플레이어의 수
-     */
-    public int getFailPlayer(int stageLevel, int[] stages) {
-        failPlayer = 0;
-        for (int player = 0; stages.length > player; player++) {
-            if (stages[player] == stageLevel) {
-                failPlayer++;
-            }
-        }
-        return failPlayer;
     }
 
     public static void main(String[] args) {
