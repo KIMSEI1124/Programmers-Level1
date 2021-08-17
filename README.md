@@ -54,3 +54,4 @@
 49. [x만큼 간격이 있는 n개의 숫자 - nNumSpacedByX](https://cdn.discordapp.com/attachments/868303738010488932/871263315010125844/x_n_.PNG)
 50. [직사격형 별찍기 - rectangularStar](https://cdn.discordapp.com/attachments/868303738010488932/871264890428465172/1ad5f1de24813073.PNG)
 51. [부족한 금액 계산하기 - shortfallMoney](https://cdn.discordapp.com/attachments/868303738010488932/873031181493497866/c1355dd893fba78f.PNG)
+52. [상호 평가 - mutualEvaluation](https://cdn.discordapp.com/attachments/868303738010488932/876998403916189746/48cea1e991b436b5.PNG)
